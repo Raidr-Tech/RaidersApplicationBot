@@ -1,10 +1,13 @@
 import discord
 import os
+import logging
 from dotenv import load_dotenv
 from os import getenv
 from config import *
 from discord.ext import commands
 from discord import app_commands
+
+logging.basicConfig(level=logging.DEBUG)
 
 load_dotenv()
 
